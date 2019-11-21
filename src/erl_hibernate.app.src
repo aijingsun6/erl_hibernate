@@ -1,0 +1,12 @@
+{application, erl_hibernate,
+ [
+  {description, ""},
+  {vsn, "1"},
+  {registered, []},
+  {applications, [
+                  kernel,
+                  stdlib
+                 ]},
+  {mod, { erl_hibernate_app, []}},
+  {env, []}
+ ]}.
